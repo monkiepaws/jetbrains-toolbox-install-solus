@@ -1,4 +1,4 @@
-# jetbrains-toolbox-install
+# jetbrains-toolbox-install-solus
 Convenience installation script for Jetbrains Toolbox on Solus
 
 ## Installation
