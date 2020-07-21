@@ -35,8 +35,8 @@ touch ${DIR}/jetbrains-toolbox.sh
 echo "#!/bin/bash" >> $DIR/jetbrains-toolbox.sh
 echo "$DIR/jetbrains-toolbox" >> $DIR/jetbrains-toolbox.sh
 
-ln -s ${DIR}/jetbrains-toolbox.sh /usr/local/bin/jetbrains-toolbox
-chmod -R +rwx /usr/local/bin/jetbrains-toolbox
+ln -s ${DIR}/jetbrains-toolbox.sh /usr/bin/jetbrains-toolbox
+chmod -R +rwx /usr/bin/jetbrains-toolbox
 echo ""
 rm ${DEST}
 echo  -e "\e[32mDone.\e[39m"
